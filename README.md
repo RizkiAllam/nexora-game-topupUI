@@ -33,48 +33,48 @@ src/
 ├── store/            # Global state definitions (Zustand)
 ├── types/            # TypeScript interfaces and type definitions
 └── utils/            # Helper functions (e.g., Tailwind class merging)
+```
 
-##🚀 Tech Stack
-Core: React 18, TypeScript, Vite
+## 🚀 Tech Stack
 
-Styling: Tailwind CSS, clsx, tailwind-merge
+- **Core:** React 18, TypeScript, Vite
+- **Styling:** Tailwind CSS, `clsx`, `tailwind-merge`
+- **State Management:** Zustand (with Persist Middleware)
+- **Form Handling:** React Hook Form
+- **Schema Validation:** Zod
+- **Routing:** React Router DOM v6
+- **Icons:** Lucide React
 
-State Management: Zustand (with Persist Middleware)
+## 📦 Getting Started
 
-Form Handling: React Hook Form
+### Prerequisites
 
-Schema Validation: Zod
-
-Routing: React Router DOM v6
-
-Icons: Lucide React
-
-📦 Getting Started
-Prerequisites
 Make sure you have Node.js (v18 or higher) installed on your machine.
 
-Installation
-Clone the repository:
+### Installation
 
-Bash
-git clone https://github.com/RizkiAllam/nexora-game-topupUI.git
-Navigate to the project directory:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/RizkiAllam/nexora-game-topupUI.git
+   ```
 
-Bash
-cd nexora-game-topupUI
-Install dependencies:
+2. Navigate to the project directory:
+   ```bash
+   cd nexora-game-topupUI
+   ```
 
-Bash
-npm install
-Start the development server:
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-Bash
-npm run dev
-Open your browser and visit http://localhost:5173.
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-🛡️ Type Safety & Linting
-This project is configured with strict ESLint rules and TypeScript strict mode to catch potential bugs during compile time, ensuring production-ready code quality.
-Open your browser and visit http://localhost:5173.
+5. Open your browser and visit `http://localhost:5173`.
 
-🛡️ Type Safety & Linting
+## 🛡️ Type Safety & Linting
+
 This project is configured with strict ESLint rules and TypeScript strict mode to catch potential bugs during compile time, ensuring production-ready code quality.
