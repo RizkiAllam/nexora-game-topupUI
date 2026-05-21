@@ -33,7 +33,8 @@ src/
 ├── store/            # Global state definitions (Zustand)
 ├── types/            # TypeScript interfaces and type definitions
 └── utils/            # Helper functions (e.g., Tailwind class merging)
-🚀 Tech Stack
+
+##🚀 Tech Stack
 Core: React 18, TypeScript, Vite
 
 Styling: Tailwind CSS, clsx, tailwind-merge
@@ -56,7 +57,7 @@ Installation
 Clone the repository:
 
 Bash
-git clone [https://github.com/RizkiAllam/nexora-game-topupUI.git](https://github.com/RizkiAllam/nexora-game-topupUI.git)
+git clone https://github.com/RizkiAllam/nexora-game-topupUI.git
 Navigate to the project directory:
 
 Bash
@@ -69,6 +70,10 @@ Start the development server:
 
 Bash
 npm run dev
+Open your browser and visit http://localhost:5173.
+
+🛡️ Type Safety & Linting
+This project is configured with strict ESLint rules and TypeScript strict mode to catch potential bugs during compile time, ensuring production-ready code quality.
 Open your browser and visit http://localhost:5173.
 
 🛡️ Type Safety & Linting
